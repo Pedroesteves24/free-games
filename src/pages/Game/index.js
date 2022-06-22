@@ -11,7 +11,7 @@ export function Game() {
 
     useEffect(() => {
         async function getGames() {
-            const response = await fetch(`/game?id=${id}`)
+            const response = await fetch(`https://www.freetogame.com/api/game?id=${id}`)
             const data = await response.json();
             setGames(data);
         }
