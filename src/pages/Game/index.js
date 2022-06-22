@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import './styles.scss'
 
@@ -22,7 +22,7 @@ export function Game() {
         <>
         <div className="game-container">
             
-            <div className="thumbnail"><img src={game?.thumbnail}/></div>
+            <div className="thumbnail"><img src={game?.thumbnail} alt={game.title} /></div>
             
             <div className="game-main">
                 <div className="title">{game.title}</div>
