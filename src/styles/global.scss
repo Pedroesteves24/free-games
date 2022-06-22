@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 577px){
+    :root{
+        font-size: 14px;
+    }
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #d7ceff;
+    color: #001F8B;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+main.height{
+    margin-top: 5rem;
+    min-height: calc(100vh - 8rem);
+}

@@ -1,0 +1,42 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    width: 13rem;
+    &-form{
+        border: 2px solid #001F8B;
+        border-radius: .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        input{
+            padding: .25rem;
+            background-color: transparent;
+            border: none;
+            font-family: 'Nunito', sans-serif;
+            color: #001F8B;
+        }
+        &-icon{
+            display: flex;
+            align-items: center;
+        }
+
+        input:focus{
+            outline: none;
+        }
+
+        ::placeholder {
+            color: #001F8B;
+        }
+    }
+}
+
+@media (max-width: 577px){
+    .search{
+        width: 14rem;
+    }
+}

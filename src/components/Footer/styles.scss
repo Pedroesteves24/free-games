@@ -1,0 +1,43 @@
+footer{
+    background-color: #001F8B;
+    color: white;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+footer .email{
+    font-weight: 700;
+
+    a{
+        transition: color .3s;
+        &:hover{
+            color: #d7ceff;
+        }
+    }
+}
+
+footer .social{
+    display: flex;
+
+    a{
+        transition: color .3s;
+        &:hover{
+            color: #d7ceff;
+        }
+    }
+}
+
+footer .social li{
+    margin: 0 0 0 .75rem;
+    list-style: none;
+
+    a{
+        transition: color .3s;
+        &:hover{
+            color: #d7ceff;
+        }
+    }
+}
